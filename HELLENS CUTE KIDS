@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HELLENS Cute Kids | Vendedoras Oficiales</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #f8e1ec, #fff);
+    text-align: center;
+}
+
+.container {
+    padding: 40px 20px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #c48a3a;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 350px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #d4af37, #f5d67b);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 13px;
+    color: #999;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LOGO -->
+    <img src="logo.png" alt="HELLENS Cute Kids Logo" class="logo">
+
+    <h1>HELLENS Cute Kids 👑</h1>
+    <p class="subtitle">Contacta nuestras vendedoras oficiales 🇩🇴</p>
+
+    <!-- VENDEDORA 1 -->
+    <div class="card">
+        <h3>YADIRA ESTEVEZ</h3>
+        <p>Sto. Dgo.</p>
+        <a class="btn" href="https://wa.me/8296361434" target="_blank">
+            Escribir por WhatsApp
+        </a>
+    </div>
+
+    <!-- VENDEDORA 2 -->
+    <div class="card">
+        <h3>PAMELA CEPIN</h3>
+        <p>Stgo.</p>
+        <a class="btn" href="https://wa.me/8298899033" target="_blank">
+            Escribir por WhatsApp
+        </a>
+    </div>
+
+    <div class="footer">
+        © 2026 HELLENS Cute Kids | Marca registrada
+    </div>
+
+</div>
+
+</body>
+</html>
